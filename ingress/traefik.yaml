@@ -10,7 +10,7 @@ spec:
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: traefik
-    version: 1.7.14
+    version: 1.78.0
   values:
     serviceType: LoadBalancer
     rbac:
