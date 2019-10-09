@@ -50,10 +50,10 @@ metadata:
   name: realtime-ingress
 spec:
   rules:
-  - http:
+  - host: realtime.188.166.135.110.xip.io
+    http:
       paths:
       - path: /
-        host: realtime.188.166.135.110.xip.io
         backend:
           serviceName: realtime
           servicePort: 80
