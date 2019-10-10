@@ -4,7 +4,10 @@ kind: Deployment
 metadata:
   name: realtime
   labels:
-    app: realtime       
+    app: realtime
+  annotations:
+    flux.weave.works/automated: "true"
+    flux.weave.works/tag.realtime: semver:~1.0    
 spec:
   selector:
     matchLabels:     
