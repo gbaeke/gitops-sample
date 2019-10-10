@@ -8,6 +8,7 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.realtime: semver:~1.0
+    fluxcd.io/locked: 'true'
 spec:
   selector:
     matchLabels:
